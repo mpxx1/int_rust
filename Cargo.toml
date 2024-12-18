@@ -1,0 +1,15 @@
+[package]
+name = "int_rust"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "inter"
+path = "src/bin/main.rs"
+
+[lib]
+path = "src/lib/lib.rs"
+name = "tasks"
+
+[dependencies]
+rand = "0.8.5"
